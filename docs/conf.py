@@ -46,7 +46,7 @@ remove_from_toctrees = ["generated/*"]
 
 # Myst_nb options
 nb_execution_raise_on_error = True
-nb_execution_mode = "cache"
+nb_execution_mode = "inline"
 nb_execution_show_tb = True
 nb_remove_cell_tags = ["remove-cell"]
 nb_execution_cache_path = "_build/jupyter_cache"
