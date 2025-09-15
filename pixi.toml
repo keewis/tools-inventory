@@ -27,6 +27,10 @@ jupyter-resource-usage = "*"
 jupyterlab_code_formatter = "*"
 black = "*"
 isort = "*"
+sphinx-autobuild = ">=2024.10.3,<2025"
+
+[feature.dev.tasks]
+sphinx-autobuild = { cmd = "sphinx-autobuild -b html -W -n --open-browser . _build", cwd = "docs" }
 
 [environments]
 dev = ["dev"]

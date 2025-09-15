@@ -23,6 +23,7 @@ __pycache__/
 /docs/_build/
 /docs/generated/
 /docs/warnings.log
+
 # pixi environments
 .pixi/*
 !.pixi/config.toml
