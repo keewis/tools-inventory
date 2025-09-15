@@ -19,7 +19,7 @@ build:
       - pixi install
     build:
       html:
-        - pixi run build-docs-rtd
+        - pixi run build-rtd
 
 sphinx:
   configuration: docs/conf.py
