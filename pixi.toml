@@ -18,3 +18,15 @@ sphinx-copybutton = ">=0.5.2,<0.6"
 sphinx-codeautolink = ">=0.17.5,<0.18"
 sphinx-remove-toctrees = ">=1.0.0.post1,<2"
 sphinxext-opengraph = ">=0.13.0,<0.14"
+healpix-geo = ">=0.0.6,<0.0.7"
+xdggs = ">=0.2.2,<0.3"
+
+[feature.dev.dependencies]
+jupyterlab = "*"
+jupyter-resource-usage = "*"
+jupyterlab_code_formatter = "*"
+black = "*"
+isort = "*"
+
+[environments]
+dev = ["dev"]
