@@ -8,10 +8,10 @@
 
 import datetime as dt
 
-project = 'grid4earth tools inventory'
-author = 'grid4earth project'
+project = "grid4earth tools inventory"
+author = "grid4earth project"
 year = dt.datetime.today().year
-copyright = f'{year}, {author}'
+copyright = f"{year}, {author}"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -31,10 +31,11 @@ extensions = [
 autodoc_typehints = "none"
 codeautolink_concat_default = True
 
-templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+templates_path = ["_templates"]
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
-source_suffix = {".rst": "restructuredtext",
+source_suffix = {
+    ".rst": "restructuredtext",
     ".md": "myst-nb",
     ".ipynb": "myst-nb",
 }
