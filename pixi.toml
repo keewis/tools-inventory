@@ -23,6 +23,9 @@ healpix-geo = ">=0.0.6,<0.0.7"
 xdggs = ">=0.2.2,<0.3"
 h5netcdf = ">=1.6.4,<2"
 pooch = ">=1.8.2,<2"
+easygems = ">=0.0.18,<0.0.19"
+cartopy = ">=0.25.0,<0.26"
+matplotlib = ">=3.10.6,<4"
 
 [feature.dev.dependencies]
 jupyterlab = "*"

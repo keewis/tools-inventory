@@ -18,4 +18,5 @@ caption: Visualization
 hidden: true
 ---
 visualization/vector
+visualization/raster
 ```
